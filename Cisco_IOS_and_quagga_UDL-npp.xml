@@ -2,9 +2,9 @@
   @file Cisco_IOS_and_quagga_UDL-npp.xml
   @version 1.11
   @author Vladislav V. Prodan <admin@support.od.ua>
-  @license MIT License
+  @license The Unlicense
   @copyright 2015-2019 by Vladislav V. Prodan
-  @description Notepad++ UDL file for Cisco IOS and quagga BGPd conf
+  @description Notepad++ UDL file for Cisco IOS and Quagga BGPd conf
 -->
 <NotepadPlus>
     <UserLang name="Cisco_IOS" ext="ios" udlVersion="2.1">
