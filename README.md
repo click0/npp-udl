@@ -7,8 +7,10 @@ Syntax Highlight Rules for Notepad++ Text Editor
 To download Notepad++ go to http://notepad-plus-plus.org/download/
 
 Here the Notepad++ User Defined Language files for:
-- Cisco IOS and Quagga conf
-
+- Cisco IOS and Quagga configs (tested by bgpd.conf)
+- AlliedTelesis switches configs (tested by Allied Telesis Switch AT-9924)
+- Mikrotik routers configs with RouterOS
+- Juniper routers configs with JunOS (tested by MX5)
 
 To use this rules import them from a file.
 
@@ -19,3 +21,22 @@ To use this rules import them from a file.
 5. Take a look at dropbox named "User Language:" for the new item.
  
 Try to open a file and take a look at a syntax highlight.
+
+Example screens:
+================================================
+
+- Quagga config or ( Cisco IOS )
+
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/Cisco_IOS_and_quagga_UDL-npp.jpg" width=400></img>
+
+- AlliedTelesis switch config
+
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/AlliedTelesis_UDL-npp.jpg" width=400></img>
+
+- Mikrotik router config ( RouterOS )
+
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/RouterOS_UDL-npp" width=400></img>
+
+- Juniper router config ( JunOS )
+
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/JunOS_UDL-npp.jpg" width=400></img>
