@@ -1,0 +1,72 @@
+<!--
+  @file RouterOS_UDL-npp.xml
+  @version 1.09
+  @author Vladislav V. Prodan <admin@support.od.ua>
+  @license The Unlicense
+  @copyright 2018-2019 by Vladislav V. Prodan
+  @description Notepad++ UDL file for Mikrotik routers config with RouterOS
+-->
+<NotepadPlus>
+    <UserLang name="RouterOS" ext="rsc" udlVersion="2.1">
+        <Settings>
+            <Global caseIgnored="yes" allowFoldOfComments="no" foldCompact="no" forcePureLC="1" decimalSeparator="0" />
+            <Prefix Keywords1="no" Keywords2="no" Keywords3="yes" Keywords4="no" Keywords5="yes" Keywords6="no" Keywords7="no" Keywords8="no" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Comments">00# 01 02 03# 04/</Keywords>
+            <Keywords name="Numbers, prefix1"></Keywords>
+            <Keywords name="Numbers, prefix2"></Keywords>
+            <Keywords name="Numbers, extras1"></Keywords>
+            <Keywords name="Numbers, extras2">.</Keywords>
+            <Keywords name="Numbers, suffix1"></Keywords>
+            <Keywords name="Numbers, suffix2">, </Keywords>
+            <Keywords name="Numbers, range"></Keywords>
+            <Keywords name="Operators1">! $ ( ) : [ ] |  = </Keywords>
+            <Keywords name="Operators2"></Keywords>
+            <Keywords name="Folders in code1, open"></Keywords>
+            <Keywords name="Folders in code1, middle"></Keywords>
+            <Keywords name="Folders in code1, close"></Keywords>
+            <Keywords name="Folders in code2, open"></Keywords>
+            <Keywords name="Folders in code2, middle"></Keywords>
+            <Keywords name="Folders in code2, close"></Keywords>
+            <Keywords name="Folders in comment, open"></Keywords>
+            <Keywords name="Folders in comment, middle"></Keywords>
+            <Keywords name="Folders in comment, close"></Keywords>
+            <Keywords name="Keywords1">accept accessible-via-web accounting account-local-traffic ac-name action active-flow-timeout active-mode add-default-route address addresses-per-mac address-list address-pool admin-mac advertise-dns advertise-mac-address ageing-time allocate-udp-ports-from allow allow-disable-external-interface allowed-number allow-guests allow-remote-requests always-from-cache area area-id arp as audio-max audio-min audio-monitor auth auth-algorithms authenticate authentication authentication-password authentication-protocol authentication-types auth-method authoritative auto-mac automatic-supout auto-negotiation autonomous auto-send-supout backup-allowed baud-rate bidirectional-timeout blank-interval bootp-support bridge bridge-mode broadcast broadcast-addresses bsd-syslog burst-limit burst-threshold burst-time cable-settings cache-administrator cache-entries cache-hit-dscp cache-max-ttl cache-on-disk cache-size certificate chain change-tcp-mss channel channel-time check-interval cipher client-to-client-reflection comment connection-bytes connection-idle-timeout connection-mark connection-state contact contrast cpu data-bits default default-ap-tx-limit default-authentication default-client-tx-limit default-forwarding default-group default-profile default-route-distance dhcp-option dh-group dial-on-demand directory disabled disable-running-check disk-file-count disk-file-name disk-lines-per-file disk-stop-on-full display-time distance distribute-default distribute-for-default-route dns-name dns-server domain dpd-interval dpd-maximum-failures dst-address dst-address-list dst-delta dst-end dst-port dst-start dynamic-label-range eap-methods enabled enc-algorithm enc-algorithms encryption-password encryption-protocol engine-id exchange-mode exclude-groups file-limit file-name filter-ip-address filter-ip-protocol filter-mac filter-mac-address filter-mac-protocol filter-port filter-stream flow-control forward-delay frame-size frames-per-second from full-duplex garbage-timer gateway gateway-class gateway-keepalive gateway-selection generate-policy generic-timeout group-ciphers group-key-update hash-algorithm hide-ssid hop-limit hotspot-address html-directory http-cookie-lifetime http-proxy icmp-timeout idle-timeout ignore-as-path-len inactive-flow-timeout in-filter in-interface instance interface interfaces interim-update interval ipsec-protocols jump-target keepalive-timeout keep-max-sms kind l2mtu latency-distribution-scale lease-time level lifebytes lifetime limit-at line-count list local-address location login login-by log-prefix loop-detect lsr-id mac-address managed-address-configuration management-protection management-protection-key manycast max-cache-size max-client-connections max-connections max-fresh-time max-limit max-message-age max-mru max-mtu max-server-connections max-sessions max-station-count max-udp-packet-size memory-limit memory-lines memory-scroll memory-stop-on-full metric-bgp metric-connected metric-default metric-ospf metric-other-ospf metric-rip metric-static min-rx mode mpls-mtu mq-pfifo-limit mrru mtu multicast multi-cpu multiple-channels multiplier my-id-user-fqdn name nat-traversal netmask network new-connection-mark new-packet-mark new-routing-mark no-ping-delay note ntp-server on-backup only-headers only-one on-master origination-interval other-configuration out-filter out-interface packet-mark packet-size page-refresh parent parent-proxy parent-proxy-port parity passthrough password path-vector-limit paypal-accept-pending paypal-allowed paypal-secure-response pcq-burst-rate pcq-burst-threshold pcq-burst-time pcq-classifier pcq-dst-address6-mask pcq-dst-address-mask pcq-limit pcq-rate pcq-src-address6-mask pcq-src-address-mask pcq-total-limit permissions pfifo-limit pfs-group policy port ports preemption-mode preferred-gateway preferred-lifetime prefix primary-ntp primary-server priority profile propagate-ttl proposal proposal-check proprietary-extensions protocol protocol-mode query-interval query-response-interval queue quick-leave ra-delay radius-eap-accounting radius-mac-accounting radius-mac-authentication radius-mac-caching radius-mac-format radius-mac-mode ra-interval ra-lifetime ranges rate-limit reachable-time read-access read-only receive-all receive-enabled receive-errors red-avg-packet red-burst redistribute-bgp redistribute-connected redistribute-ospf redistribute-other-bgp redistribute-other-ospf redistribute-rip redistribute-static red-limit red-max-threshold red-min-threshold remember remote remote-address remote-ipv6-prefix-pool remote-port require-client-certificate retransmit-interval router-id routing-mark routing-table sa-dst-address sa-src-address scope secondary-ntp secondary-server secret security security-profile send-initial-contact serialize-connections servers service-name set-system-time sfq-allot sfq-perturb shared-users show-at-login show-dummy-rule signup-allowed sip-direct-media skin smtp-server source speed split-user-domain src-address src-address-list src-port ssid ssid-all state-after-reboot static-algo-0 static-algo-1 static-algo-2 static-algo-3 static-key-0 static-key-1 static-key-2 static-key-3 static-sta-private-algo static-sta-private-key static-transmit-key status-autorefresh stop-bits store-every store-leases-disk streaming-enabled streaming-max-rate streaming-server supplicant-identity switch-to-spt switch-to-spt-bytes switch-to-spt-interval syslog-facility syslog-severity target target-scope tcp-close-timeout tcp-close-wait-timeout tcp-established-timeout tcp-fin-wait-timeout tcp-flags tcp-last-ack-timeout tcp-syncookie tcp-syn-received-timeout tcp-syn-sent-timeout tcp-time-wait-timeout term test-id threshold timeout timeout-timer time-zone time-zone-name tls-certificate tls-mode to-address to-addresses topics to-ports transmit-hold-count transparent-proxy transport-address trap-generators trap-target trap-version ttl tunnel type udp-stream-timeout udp-timeout unicast-ciphers update-stats-interval update-timer use-compression use-encryption use-explicit-null use-ip-firewall use-ip-firewall-for-pppoe use-ip-firewall-for-vlan use-ipv6 use-mpls use-peer-dns use-peer-ntp user use-radius use-service-tag use-vj-compression v3-protocol valid-lifetime vcno verify-client-certificate version vlan-id vrid watch-address watchdog-timer wds-cost-range wds-default-bridge wds-default-cost wds-ignore-ssid wds-mode wins-server wmm-support wpa2-pre-shared-key wpa-pre-shared-key write-access advertise scheduler db-path</Keywords>
+            <Keywords name="Keywords2">add beep delay detail do error execute export file find for foreach get global if import info led len local log nothing parse password pick ping print put quit redo resolve set set setup time toarray tobool toid toip toip6 tonum tostr totime typeof undo while cdrom</Keywords>
+            <Keywords name="Keywords3">/ aaa accounting address address-list align area bandwidth-server bfd bgp bridge client clock community config connection console customer default dhcp-client dhcp-server discovery dns e-mail ethernet filter firewall firmware gps graphing hardware health hotspot identity igmp-proxy incoming instance interface0 ip ipsec ipv6 irq l2tp-server lcd ldp logging mac-server mac-winbox mangle manual mirror mme mpls nat nd neighbor network note ntp ospf ospf-v3 ovpn-server page peer pim ping policy pool port ppp pppoe-client pptp-server prefix profile proposal proxy radius resource rip ripng route routing screen script security-profiles server service service-port settings shares smb sms sniffer snmp snooper socks sstp-server system tool tracking traffic-flow traffic-generator tree treegroup type upgrade upnp user user-manager users vlan vrrp watchdog web-access wireless cpu-count disk-images memory regexp read one-session-per-host allow-remote-requests on-event caller-id</Keywords>
+            <Keywords name="Keywords4">yes no admin access user-manager debug</Keywords>
+            <Keywords name="Keywords5">8. 10. 192. 128. 0. 255. 239. 224. 100Mbps 100M-full 1000M-full</Keywords>
+            <Keywords name="Keywords6">layer7-protoco</Keywords>
+            <Keywords name="Keywords7"></Keywords>
+            <Keywords name="Keywords8"></Keywords>
+            <Keywords name="Delimiters">00&quot; 01 02&quot; 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23</Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" fgColor="A6A6A6" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="LINE COMMENTS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="NUMBERS" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS1" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS2" fgColor="800040" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS3" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS4" fgColor="FF0000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS5" fgColor="FF8000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS6" fgColor="8000FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="KEYWORDS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="OPERATORS" fgColor="008000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE1" fgColor="38B86B" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN CODE2" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="FOLDER IN COMMENT" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS1" fgColor="FF8080" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS2" fgColor="0080FF" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS3" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS4" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS5" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS6" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS7" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+            <WordsStyle name="DELIMITERS8" fgColor="000000" bgColor="FFFFFF" fontName="" fontStyle="0" nesting="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
