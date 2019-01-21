@@ -35,7 +35,7 @@ Example screens:
 
 - Mikrotik router config ( RouterOS )
 
-<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/RouterOS_UDL-npp" width=400></img>
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/RouterOS_UDL-npp.jpg" width=400></img>
 
 - Juniper router config ( JunOS )
 
