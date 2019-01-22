@@ -27,16 +27,16 @@ Example screens:
 
 - Quagga config or ( Cisco IOS )
 
-<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/Cisco_IOS_and_quagga_UDL-npp.jpg" width=400></img>
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/Cisco_IOS_and_quagga_UDL-npp.jpg" width=500></img>
 
 - AlliedTelesis switch config
 
-<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/AlliedTelesis_UDL-npp.jpg" width=400></img>
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/AlliedTelesis_UDL-npp.jpg" width=500></img>
 
 - Mikrotik router config ( RouterOS )
 
-<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/RouterOS_UDL-npp.jpg" width=400></img>
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/RouterOS_UDL-npp.jpg" width=500></img>
 
 - Juniper router config ( JunOS )
 
-<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/JunOS_UDL-npp.jpg" width=400></img>
+<img src="https://raw.githubusercontent.com/click0/npp-udl/master/Example screen/JunOS_UDL-npp.jpg" width=500></img>
